@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Hammersmith One', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh ;
+    background: linear-gradient(to top, grey, #006a5d);
+    image-rendering: auto;
+}
+h4{
+    text-align: right;
+    margin-right: 20px;
+}
+p{
+    font-size:smaller;
+    margin-bottom: 20px;
+}
+
+.login-page{  
+    margin-top: 30px;      
+    width: 350px;
+    height: 450px;
+    background: fixed;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0d0c0c;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    transition: all .4s;
+    /* box-shadow: 20px; */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 300);
+}
+
+.login-page h1{
+    margin-bottom:15px ;
+    text-align: center;
+    margin-top: 15px;
+    color: aliceblue;
+}
+.login-page form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page form input{
+    width: 250px;
+    height: 35px;
+    margin: 8px;
+    background: rgb(218, 218, 218);
+    border: none;
+    border-radius: 2px;
+    padding-left: 10px;
+    outline: none;
+    transition: all .4s;
+}
+.login-page form input:focus{
+    background: rgb(194, 194, 194);
+}
+.login-page form .btn{
+    width: 250px;
+    height: 35px;
+    margin: 8px;
+    background:rgb(142, 142, 144);
+    color: black;
+    border: none;
+     border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    transition: all .4s;
+}
+.login-page form .btn:hover{
+    background: rgb(82, 74, 74);
+}
+
+.icons{
+    width: 250px;
+    height: 40px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons div{
+    width: 122px;
+    height: 40px;
+    border: 2px solid #3b5998;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2px;
+    transition: all .4s;
+    cursor: pointer;
+}
+.icons div:nth-child(2){
+    border:2px solid #3b5998;
+}
+.icons div i{
+    color: #3b5998;
+    margin: 8px;
+    transition: all .4s;
+}
+.icons div:hover i{
+    color: #e2e2e2;
+}
+.icons div .fa-facebook{
+    color: #006a5d !important;
+}
+.icons div:hover :nth-child(1){
+    background: #3b5998;
+    color:#e2e2e2;
+}
+.icons div:hover :nth-child(2){
+
+    background: #4285f4;
+    color: #e2e2e2;
+}
+
+.fa-google {
+    color: #006a5d !important;
+}
+
+
+
+

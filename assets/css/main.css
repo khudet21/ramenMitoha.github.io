@@ -11,9 +11,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Noto Sans JP", sans-serif;
-  --font-primary: "Montserrat", sans-serif;
-  --font-secondary: "Poppins", sans-serif;
+  --font-default: "Bokor", system-ui;
+  --font-primary: "Bokor", system-ui;
+  --font-secondary: "Bokor", system-ui;
 }
 
 /* Colors */
